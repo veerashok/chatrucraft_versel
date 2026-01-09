@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",        // VERY IMPORTANT
+    "paths": {
+      "@/*": ["./*"]       // if app/, components/ are directly here
+    }
+  }
+}
