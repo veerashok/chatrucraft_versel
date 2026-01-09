@@ -1,10 +1,20 @@
 {
-  "devDependencies": {
-    "@types/node": "^24.10.1",
-    "@types/react": "^19.2.7",
-    "typescript": "^5.9.3"
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsc && serve dist",
+    "build": "tsc",
+    "start": "serve dist"
   },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "framer-motion": "^12.23.25"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/react": "^19.2.7",
+    "@types/node": "^24.10.1"
   }
 }
